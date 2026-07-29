@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hy">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Կապ — Hayqyan Travel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+Armenian:wght@400;500;600;700&family=Noto+Serif+Armenian:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="nav">
+      <a href="index.html" class="logo"><img src="Assets/logo.png" alt="Hayqyan Travel"></a>
+      <nav class="nav-links">
+        <a href="index.html">Գլխավոր</a>
+        <a href="tours.html">Ուղևորություններ</a>
+        <a href="about.html">Մեր Մասին</a>
+        <a href="contact.html">Կապ</a>
+      </nav>
+      <div class="nav-right">
+        <a href="tours.html" class="btn btn-persimmon">Ամրագրել</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow">Կապվեք Մեզ Հետ</div>
+      <h1>Հարցրեք մեզ ձեր ուխտագնացության մասին</h1>
+      <p>Լրացրեք ձևը, և մեր թիմը կպատասխանի 1 աշխատանքային օրվա ընթացքում:</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="contact-grid">
+        <form class="contact-form" id="contact-form">
+          <div>
+            <label for="contact-name">Անուն Ազգանուն</label>
+            <input type="text" id="contact-name" name="name" placeholder="Ձեր անունը" required>
+          </div>
+          <div>
+            <label for="contact-email">Էլ. Փոստ</label>
+            <input type="email" id="contact-email" name="email" placeholder="dzer@email.am" required>
+          </div>
+          <div>
+            <label for="contact-message">Հաղորդագրություն</label>
+            <textarea id="contact-message" name="message" rows="6"
+              placeholder="Պատմեք մեզ, թե որ ուխտագնացությունն է ձեզ հետաքրքրում..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-persimmon" style="justify-content:center;">Ուղարկել
+            Հաղորդագրությունը</button>
+        </form>
+
+        <div>
+          <div class="contact-info">
+            <h3>Կապվեք մեզ հետ ուղղակիորեն</h3>
+            <div class="contact-line"><span>Էլ. փոստ</span><span>infor@cis.am</span></div>
+            <div class="contact-line"><span>Հեռախոս</span><span>+374 55773311</span></div>
+            <div class="contact-line"><span>Գրասենյակ</span><span>Երևան, Աբովյան 48 բն.3</span></div>
+            <a class="directions-link" href="https://maps.app.goo.gl/GSa9FyJjwZWsJtGd9" target="_blank" rel="noopener"
+              style="margin-top:16px;">Ինչպես Հասնել ↗</a>
+
+            <div class="map-embed">
+              <iframe title="Գրասենյակի քարտեզ"
+                src="https://www.google.com/maps?q=40.1876883,44.5240391&z=16&output=embed" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><img src="Assets/logo.png" alt="Hayqyan Travel"></a>
+          <p>Փոքր խմբային հոգևոր ուխտագնացություններ՝ պլանավորված տեղական փորձագետների կողմից: Ամրագրում ենք
+            ուղևորություններ 2015 թվականից:</p>
+          <form class="newsletter" id="newsletter-form">
+            <input type="email" placeholder="Ձեր էլ. հասցեն" required>
+            <button type="submit">Ինձ Տեղեկացնել</button>
+          </form>
+        </div>
+        <div class="footer-col">
+          <h5>Ընկերություն</h5>
+          <a href="tours.html">Առաջիկա Ուխտագնացություններ</a>
+          <a href="about.html">Մեր Մասին</a>
+          <a href="contact.html">Կապ</a>
+        </div>
+        <div class="footer-col">
+          <h5>Կապ</h5>
+          <p>infor@cis.am</p>
+          <p>+374 55773311</p>
+          <a class="directions-link" style="color:#C7D8E1;"
+            href="https://maps.app.goo.gl/GSa9FyJjwZWsJtGd9" target="_blank"
+            rel="noopener">Երևան, Աբովյան 48 բն.3 · Ինչպես Հասնել ↗</a>
+        </div>
+        <div class="footer-col">
+          <h5>Հետևեք Մեզ</h5>
+          <div class="social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="TikTok">TT</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Hayqyan Travel: Բոլոր իրավունքները պաշտպանված են: · Գաղտնիության Քաղաքականություն · Ծառայության
+          Պայմաններ</span>
+        <div class="payment-badges">
+          <span>VISA</span><span>MASTERCARD</span><span>AMEX</span><span>PAYPAL</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
